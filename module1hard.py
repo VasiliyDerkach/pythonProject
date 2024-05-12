@@ -5,5 +5,5 @@ grades_avg=[]
 for grades_itm in grades:
     grades_avg.append(sum(grades_itm)/len(grades_itm))
 tabel=dict(zip(students,grades_avg))
-print(students_avg)
+#print(grades_avg)
 print(tabel)
