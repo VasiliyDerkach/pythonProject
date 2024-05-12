@@ -1,0 +1,12 @@
+my_list=['Яблоки',"Апельсины",'Арбузы','Дыни','Груши']
+print(my_list)
+print(my_list[0],my_list[-1])
+print(my_list[2:5])
+my_list[2]='Бананы'
+print(my_list)
+my_dict={'Moscow':'Москва','Kursk':'Курск','Kazan':'Казань'}
+print(my_dict)
+print(my_dict['Kazan'])
+my_dict['Kursk']='КУРСК'
+my_dict['Ufa']='Уфа'
+print(my_dict)
